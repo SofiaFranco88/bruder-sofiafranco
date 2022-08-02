@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.primerParrafo {
+    font-style:normal;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(236, 226, 226);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    
+    
+   
+    
+
+
+}
+
+.segundoParrafo{
+    font-style: normal;
+    color: beige;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    margin-right:30% ;
+    margin-left: 4%;
+    
+    
+      
+   
+    }
+    /* margin-right: 800px;
+    margin-left: 20px; 
+    */
+
+h4{
+background-color: rgb(167, 167, 167);
+font: normal;
+font-size: x-large;
+font-weight: 500;
+font-family: 'Poppins', sans-serif;
+margin: auto;
+padding: 1%;
+text-align: center;
+    }
+    
+
+h1{
+    font-style: normal;
+    font-weight: bolder;
+    font-size:xx-large;
+    color: rgb(3, 3, 3);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+    
+    
+
+}
+
+.primerMain{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "texto video";
+    gap:10%;
+    background-image: url(../img/BRUDER3.jpg);
+    background-size: cover;
+    justify-items: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    
+    
+    
+}
+ 
+    
+    /*
+    background-image: url(../img/BRUDER3.jpg);
+    background-size: cover;
+    width:100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 2fr 2fr 2 fr
+  
+   */
+       
+
+
+
+.mainContacto{
+   background-color: #b7bacc;
+ }
+
+    
+
+
+.parrafoNosotros{
+    color: rgb(8, 8, 8);
+    font-style: normal;
+    font-weight: bold;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    margin-inline: 10%;
+    padding: 10%;
+    background-color: rgb(180, 180, 180);
+    margin: auto;
+    
+   
+    
+  
+       
+}
+
+main{
+    height:100vh ;
+}
+
+
+.mainNosotros {
+    display: grid;
+   
+    min-height: 100vh;
+    
+}
+
+.navUno li{
+
+    display:inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bolder; 
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content:space-around
+  }
+       
+
+
+a{
+    text-decoration: none;
+    color:beige;
+    
+}
+
+  
+       
+/* max-width: 300px;
+    max-height: 300px;
+    margin-left: 100px;
+    position: relative;
+    margin-bottom: 30px;
+    */
+
+.logoSuperior{
+    max-width: 7%;
+    max-height: 7%;
+    margin-left: 45%;
+    margin-top: top 20%;    
+    list-style: none;
+    animation-duration: 2s;
+    animation-name: animate_heartBeat;
+      /* margin-left: 600px;
+      max-width: 100px;
+      max-height: 100px;
+      margin-top: 20px;
+   */
+  
+}
+
+
+@keyframes animate__heartBeat {
+    0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+   
+    
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0) , rgb(37, 37, 37), rgb(77, 77, 77));
+    border-radius: 4rem;
+    
+
+    
+    
+}
+
+/*
+.social{
+    background: #43485f;
+    font-size: 1.2rem;
+    height: 70px;
+    border-top: 2px solid rgba(0, 0, 0, 0.24);  
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+    
+}
+*/
+footer{
+    background-color: #2a2a2b;
+    display: flex;
+    justify-content: flex-end;
+   
+    
+   
+    border-top: 2px solid rgba(0, 0, 0, 0.24);  
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    align-items: flex-end;
+    z-index: 100;
+  
+}
+
+
+.social{
+    width:200px;
+    display:flex;
+    padding: 10px;
+    border-radius:10px;
+    background-color:#020202;
+
+}
+.social >a{
+    width:25%;
+    font-size:2rem;
+    box-shadow: rgb(0, 0, 0) 3px 3px 6px 0px, rgba(255,255,255) -3px -3px 6px 1px;
+    height:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    background:rgb(5, 5, 5);
+    margin:10px;
+    transition: 0.4s;
+}
+.social >a:hover{
+   transform:translateY(-10px);
+   color: var(--color);
+}
+
+.footerRedes {
+    font-size:larger;
+    font-weight:lighter;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    margin: auto;
+    color: #fff;
+    background-color: #4d4f5f;
+    padding: 1%;
+   
+
+    
+}
+
+
+h3 {
+    color: rgb(7, 7, 7);
+    font-family: 'Poppins', sans-serif;
+    margin-left: 30px;
+   
+}
+.serviciosParrafo{
+    color:beige;
+    font-family: 'Poppins', sans-serif; 
+    text-align: center;
+    font-size:xx-large;
+    font-style: normal;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    background-color:#43485f
+    
+}
+
+
+.videoUno{
+    max-width: 76%;
+    max-height: 60%;
+    display: flex;
+    justify-content: center;
+    grid-area: video;
+    margin-bottom: 5%;
+    
+   
+}
+     /*
+    max-width: 400px;
+    max-height: 400px;
+    margin-left: 900px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    */
+   
+
+
+
+.parrafoContacto{
+    background-color: #8d90a0;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 390px;
+    margin-right: 500px;
+    padding: 1%;
+   
+    
+}
+
+.contenedor{
+    display: flex;
+    background-color: #8d90a0;
+      
+       
+ }
+
+ .sectionNosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+      
+      
+ }
+
+ .imagenChicos {
+  
+  margin-top: 1%;
+  padding: 5%;
+  background-color: #43485f;
+  width: 50vh;
+  margin-left: 30%;
+  
+
+
+   
+ }
+
+
+ 
+
+ h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+ }
+ 
+ .parrafoServicios{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+    font-style: normal;
+    
+ }
+ .parrafoServi {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 300;
+    font-style: normal;
+    
+
+
+}
+ 
+ 
+.contenedorTrabajos{
+   display: flex;
+   flex-direction:column;
+   font-family: 'Poppins', sans-serif;
+   margin-left: 30px;
+  
+  
+}
+
+
+ .imgMoto{
+    width: 500px;
+    height: 350px;
+
+ }
+ body{
+    height: 100vh;
+    width: 100%;
+}
+
+
+.link{
+    display: inline-block;
+    margin-block: 2px;
+    text-decoration: none;
+    color:#fff;
+    position: relative;
+    margin-top:10px;
+    font-size: 1.5rem;
+}
+.link::after{
+    content:'';
+    width: 100%;
+    height:1px;
+    background-color: #fff;
+    border-radius:4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform:scaleX(0);
+    transform-origin: left;
+    transition: transform .25s ease;
+}
+.link:hover::after{
+    transform:scaleX(1);
+}
+
+
+
+section{
+    display: grid;
+    column-gap: 1fs 1fs;
+}
+
+.sectionUno{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: antiquewhite;
+    background: url(../img/oxidodos.jpg);
+    height: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    min-height: 100vh;
+    justify-items: center;
+    align-items: center;
+  
+}
+
+
+    
+
+
+
+   
+ 
+ 
+
+    
+
+
+
+
+
