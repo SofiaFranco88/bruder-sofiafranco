@@ -98,7 +98,11 @@ h1{
 
 
 .mainContacto{
-   background-color: #b7bacc;
+  background-image: url(../img/oxido.jpg);
+  padding:7%;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  
  }
 
     
@@ -165,20 +169,18 @@ a{
     */
 
 .logoSuperior{
-    max-width: 7%;
-    max-height: 7%;
-    margin-left: 45%;
-    margin-top: top 20%;    
     list-style: none;
     animation-duration: 2s;
     animation-name: animate_heartBeat;
-      /* margin-left: 600px;
-      max-width: 100px;
-      max-height: 100px;
-      margin-top: 20px;
-   */
+    margin-left: 1%;
+    width: 15vh;
+    
   
 }
+  /*max-width: 7%;
+    max-height: 7%;
+    margin-top: top 20%; 
+    */
 
 
 @keyframes animate__heartBeat {
@@ -194,7 +196,7 @@ a{
 
 header {
     background-image: linear-gradient(to bottom, rgb(0, 0, 0) , rgb(37, 37, 37), rgb(77, 77, 77));
-    border-radius: 4rem;
+    
     
 
     
@@ -369,6 +371,9 @@ h3 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: #fff;
+    font-size: xx-large;
+    font-weight: bolder;
     
 
  }
